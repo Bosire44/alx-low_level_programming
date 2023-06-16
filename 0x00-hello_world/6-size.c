@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Print sizeof data type in diff machines 
+ * main - Print sizeof data type in diff machines
  * Return: return 0 if successful
  */
 int main(void)
