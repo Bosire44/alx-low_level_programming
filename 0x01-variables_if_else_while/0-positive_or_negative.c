@@ -1,7 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+/* more headers goes there
+ * main - check if n is pos, neg or zero
+ * Return: 0 if successful
+ */
 
 /* betty style doc for function main goes there */
 int main(void)
