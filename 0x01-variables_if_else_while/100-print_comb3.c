@@ -12,10 +12,9 @@ int main(void)
 		for (j = k; j < 58; j++)
 		{
 			if (i != j)
-			{ 
+			{
 				putchar(i);
 				putchar(j);
-			
 				if (!(i == 56 && j== 57))
 				{
 					putchar(44);
