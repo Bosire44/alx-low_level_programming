@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
+/**
  * main - check if n is pos, neg or zero
  * Return: 0 if successful
  */
