@@ -6,14 +6,14 @@
 int main(void)
 {
 	int i, j, k, m = 49, n = 50;
-	
+
 	for (i = 48; i < 56; i++)
 	{
 		for (j = m; j < 57; j++)
 		{
 			for (k = n; k < 58; k++)
 			{
-				if (!(i == j || j == k))
+				if (!(i == j || j == k) && j < k)
 				{
 					putchar(i);
 					putchar(j);
