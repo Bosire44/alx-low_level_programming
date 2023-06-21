@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - writes sum of multiples of 3 and 9
- * Return - the number
+ * Return: - the number
  */
 int main(void)
 {
@@ -15,6 +15,6 @@ int main(void)
 			sum += 1;
 		}
 	}
-	printf("%d\n",sum);
-	return sum;
+	printf("%d\n", sum);
+	return (0);
 }
