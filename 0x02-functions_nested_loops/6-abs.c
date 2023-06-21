@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _abs - print absolute value of a nuber
- * @c - Number to be printed
+ * @c: - Number to be printed
  * Return: Absolute value
  */
 int _abs(int c)
