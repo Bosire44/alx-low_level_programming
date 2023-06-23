@@ -25,7 +25,7 @@ void print_number(int n)
 	{
 		_putchar(48 + (n / 100));
 		_putchar(48 + (n / 10) % 10);
-		_putchar(48 + (n % 100));
+		_putchar(48 + (n % 10) % 10);
 	}
 	else if ( n < 10000)
 	{
