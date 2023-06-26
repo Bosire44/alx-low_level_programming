@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  * reset_to_98 - updates to 98
- * @*n: Target
+ * @n: Target
  * Return: nothing
  */
 
