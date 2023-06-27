@@ -4,7 +4,7 @@
 #include "main.h"
 /**
  * print_rev - print a sring i reverse
- * @s - string
+ * @s:P - string
  * Return: nothig
  */
 void print_rev(char *s)
