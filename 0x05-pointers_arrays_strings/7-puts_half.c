@@ -9,9 +9,17 @@
  */
 void puts_half(char *str)
 {
-	long unsigned int i;
+	unsigned long int i, b;
 
-	for (i = strlen(str) / 2; str[i] != '\0'; i++)
+	if (strlen(str) % 2 == 0)
+	{
+		b = strlen(str) / 2;
+	}
+	else
+	{
+		b = (strlen(str) - 1) / 2;
+	}
+	for (i = b; str[i] != '\0'; i++)
 	{
 		printf("%c", str[i]);
 	}
