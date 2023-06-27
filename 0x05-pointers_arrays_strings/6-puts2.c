@@ -1,22 +1,19 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 #include "main.h"
+
 /**
- * puts2 - Printes every ither character of a string
- * @str: The string
- * Return: nothing
+ * puts2 - prints every other character of a string
+ * @str: string to be printed
  */
+
 void puts2(char *str)
 {
+	int len = strlen(str);
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; i < len; i++)
 	{
 		if (i % 2 == 0)
-		{
-			printf("%c", str[i]);
-		}
+			_putchar(str[i]);
 	}
-	printf("\n");
+	_putchar('\n');
 }

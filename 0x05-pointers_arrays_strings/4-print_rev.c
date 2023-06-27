@@ -1,19 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "main.h"
+#include <string.h>
+
 /**
- * print_rev - print a sring i reverse
- * @s:P - string
- * Return: nothig
+ * print_rev - prints a string in reverse followed  by a new line
+ * @s: string to be printed
  */
+
 void print_rev(char *s)
 {
-	int i;
+	int i = strlen(s) - 1;
 
-	for (i = strlen(s) - 1; i >= 0; i--)
+	while (i >= 0)
 	{
-		printf("%c", s[i]);
+		_putchar(s[i]);
+		i--;
 	}
-	printf("\n");
+	_putchar('\n');
 }
