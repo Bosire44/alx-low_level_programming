@@ -1,1 +1,1 @@
-More pointes, pointer ofpointer and n-dimensionalarray
+Pointers, Arrays and Strings
